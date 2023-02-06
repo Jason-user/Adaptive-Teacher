@@ -31,7 +31,8 @@ DATALOADER:
   SUP_PERCENT: 100.0
 DATASETS:
   CROSS_DATASET: True
-  TRAIN_LABEL: ("voc_2012_trainval",) #voc_2012_train
+  TRAIN_LABEL: ("voc_2007_trainval",) #voc_2007_train
+  #TRAIN_LABEL: ("voc_2012_trainval",) #voc_2012_train
   # TRAIN_UNLABEL: ("voc_2012_val",) #Clipart1k_train
   # TEST: ("voc_2012_val",) #Clipart1k_test
   TRAIN_UNLABEL: ("Clipart1k_train",) #Clipart1k_train
